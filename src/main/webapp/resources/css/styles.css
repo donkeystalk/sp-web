@@ -1,0 +1,31 @@
+header ul li 
+{
+	float: left;
+	position:relative
+}
+
+header form.search-bar input[type="text"]
+{
+	background-color: #300;
+}
+
+.container
+{
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid #5E5E5E;
+	padding: 0.5em;
+}
+
+.drop-down ul
+{
+	display: none;
+}
+
+.drop-down:hover ul
+{
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}
